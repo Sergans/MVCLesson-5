@@ -5,4 +5,8 @@
     <RootNamespace>MVCLesson_5</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.39" />
+  </ItemGroup>
+
 </Project>

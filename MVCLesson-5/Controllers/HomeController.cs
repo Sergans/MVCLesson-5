@@ -26,10 +26,6 @@ namespace MVCLesson_5.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
         public IActionResult Weather()
         {
             _weather.GetWeather();

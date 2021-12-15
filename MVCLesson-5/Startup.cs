@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MVCLesson_5.Operation;
 
 namespace MVCLesson_5
 {
@@ -24,6 +25,7 @@ namespace MVCLesson_5
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddScoped<WeatherYandex>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

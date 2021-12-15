@@ -1,0 +1,10 @@
+﻿@model WeatherModel
+
+@{
+    ViewData["Title"] = "Погода на сегодня";
+ }
+    <h1>@DateTime.Now.ToLocalTime()</h1>
+    <h1>@Html.Raw(Model.WeatherM)</h1>
+
+
+
